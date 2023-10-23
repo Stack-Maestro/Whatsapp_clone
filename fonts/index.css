@@ -1,0 +1,288 @@
+*{
+    /* margin: 0px; */
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(32, 29, 29); */
+    color: whitesmoke;
+    background-color:rgb(44, 204, 44);
+
+}
+.whats{
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
+}
+header{
+    background-color:rgb(44, 204, 44);
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.flex{
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    /* justify-content:space-around; */
+    
+}
+.one{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.left{
+    padding-top: 10px;
+    background-color:rgb(44, 204, 44);
+    /* background-color: black; */
+}
+
+.two{
+    padding: 5px;
+    /* color: whitesmoke; */
+    border: 1px solid rgb(40, 38, 38);
+    width: 30px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20%;
+}
+.wrapper{
+    /* border: 1px solid; */
+    margin: 25px;
+    overflow-y: scroll;
+    height: 700px;
+    display: flex;
+    background-color:white;
+}
+.flex1{
+    display: flex;
+    
+}
+.inner1{
+    display: flex;
+    padding-left: 20px;
+    background-color:rgb(44, 204, 44);
+
+}
+.chats{
+    margin-top: 20px;
+    padding-left: 300px;
+}
+.search{
+    text-align: center;
+    margin: 20px;
+    /* background-color:rgb(44, 204, 44); */
+}
+.archived{
+    margin-left: 20px;
+    border:1px solid rgb(38, 37, 37);
+    padding: 10px;
+    margin-bottom: 2px;
+    margin-right: 12px;
+}
+.flex2{
+    display: flex;
+}
+.flex3{
+    display: flex;
+    /* justify-content: flex-end; */
+    /* margin-left: 50px; */
+    margin-top: 5px;
+}
+.time{
+    margin-left: 230px;
+}
+.ice{
+    text-align: end;
+}
+.timed{
+    margin-left: 120px;
+}
+.timer{
+    margin-left: 215px;
+}
+.times{
+    margin-left: 190px;
+}
+.timex{
+    margin-left: 140px;
+}
+.sound{
+    margin-left: 210px;
+}
+.tobe{
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.central{
+    display: flex;
+    /* justify-content:space-between; */
+    
+}
+.new{
+    margin: 30px 5px 0px 460px;
+    padding: 10px;
+
+}
+.Chatbox{
+   background-color: white;
+   /* background-image: url(woman.jpg); */
+}
+.adam{
+    margin-top: 10px;
+}
+.right1{
+    overflow-y: scroll;
+    height: 700px;
+    
+    /* background-color: rgb(41, 39, 39); */
+    /* background:-moz-repeating-linear-gradient(grey,white,black) */
+    /* backdrop-filter: blur(3px); */
+    /* background: radial-gradient(grey,rgb(217, 211, 211),black,blue,red,orange,pink,aqua,whitesmoke,yellow); */
+    margin-top: 23px;
+}
+.left1{
+    background-color: white;
+    color: black;
+}
+.top{
+    /* background-color: rgb(31, 30, 30); */
+    background-color:rgb(44, 204, 44);
+    position: sticky;
+    top: 0;
+    
+}
+.root{
+    color: grey;
+}
+.text{
+    border: 1px solid;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20%;
+    margin-left: 10px;
+    background: green;
+}
+.message1{
+    display: flex;
+}
+.message2{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.text2{
+    border: 1px solid;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20%;
+    margin-left: 10px;
+    background: green;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: red;
+}
+.flex2:hover{
+    background: peru;
+}
+.first{
+    display: flex;
+}
+.second{
+    display: flex;
+    justify-content: flex-end;
+}
+@media(max-width:1258px){
+    .right1{
+        display: none;
+        /* width: 500px; */
+        /* flex-wrap: nowrap; */
+    }
+
+}
+
+@media(max-width:515px){
+    *{
+        /* margin: 0px; */
+        padding: 0px;
+    }
+    .wrapper{
+        /* display: flex; */
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body{
+        display: block;
+    }
+    .time{
+        margin-left: 150px;
+    }
+    .ice{
+        text-align: end;
+    }
+    .timed{
+        margin-left: 40px;
+    }
+    .timer{
+        margin-left: 135px;
+    }
+    .times{
+        margin-left: 110px;
+    }
+    .timex{
+        margin-left: 60px;
+    }
+    .sound{
+        margin-left: 130px;
+    }
+    .chats{
+        margin-top: 20px;
+        padding-left: 180px;
+    }
+}
+@media(max-width:435px){
+    .time{
+        margin-left: 120px;
+    }
+    .ice{
+        text-align: end;
+    }
+    .timed{
+        margin-left: 10px;
+    }
+    .timer{
+        margin-left: 100px;
+    }
+    .times{
+        margin-left: 75px;
+    }
+    .timex{
+        margin-left: 25px;
+    }
+    .sound{
+        margin-left: 100px;
+    }
+    .chats{
+        margin-top: 20px;
+        padding-left: 150px;
+    }
+    .wrapper{
+        /* display: flex; */
+        margin: 0px;
+        padding: 0px;
+    }
+}

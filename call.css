@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color:rgb(44, 204, 44);
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    color: white;
+}
+.one{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+
